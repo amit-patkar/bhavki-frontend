@@ -1,0 +1,102 @@
+{
+  "hero_title": "Join the Bhavki Movement",
+
+  "hero_sub": "Where Seva Becomes Samman",
+  "hero_desc": "Bhavki is Bharat’s Sanatani Seva ecosystem — reviving ancient values of trust, dignity, and skilled service.",
+  "notify": "Notify Me",
+  "know_more": "Know More",
+  "notify_thanks": "Thank you for your interest in Bhavki! We'll notify you when we launch.",
+  "about_title": "About Bhavki",
+  "about_para": "Bhavki is not just an app — it’s a Sanatani Seva Movement. Inspired by Chhatrapati Shivaji Maharaj’s vision, it connects skilled KarmaYogis to households and communities through trust, tradition, and technology.",
+  "purpose_title": "Our Purpose",
+  "purpose_text": "To restore the lost dignity of service and make Bharat self-reliant through Seva, Samman, and Sanskar.",
+  "approach_title": "Our Approach",
+  "approach_text": "Digital empowerment built on Dharmic values, encouraging local employment and mutual respect.",
+  "how_title": "The Bhavki Path — How It Works",
+  "step1-1": {"title":"Register","desc":"Share your skill and location to join Bhavki."},
+  "step1-2": {"title":"Get Verified","desc":"Community-based verification ensures trust."},
+  "step1-3": {"title":"Serve Locally","desc":"Connect directly with KarmaDātās in your area."},
+  "step1-4": {"title":"Earn Recognition","desc":"Gain Karma Points and Bhavki Badges for your Seva."},
+  "satya":"🔥 Satya — Truth and transparency in every action.",
+  "swabhiman":"🧭 Swabhiman — Pride in honest and humble work.",
+  "sahabhagita": "🌸 Sahabhāgita — Collective participation and unity in purpose.",
+  "core_qualities_title": "Core Qualities of a Bhavki Sevak",
+  "values_title": "Our Dharma Pillars",
+  "seva":"🪔 Seva — Every act of service is sacred.",
+  "samman":"🙏 Samman — Every KarmaYogi deserves dignity.",
+  "sanskar":"🌿 Sanskar — Ancient values for a modern Bharat.",
+  "vision_title-1":"Bhavki for Bharat — Vision 2040",
+  "vision_text-1":"By 2040, Bhavki will empower 1 crore KarmaYogis serving in 500+ Seva categories — blending tradition with technology to create a trusted local economy.",
+  "testi_title":"Voices of Dharma",
+  "testimonials1":[
+    {"quote":"“In Bhavki, I found not just work — I found purpose.”","by":"Suresh, Farmer (Konkan)"},
+    {"quote":"“Bhavki treats service as sacred — and that’s rare today.”","by":"Anita, Home Healer (Nashik)"},
+    {"quote":"“Being a KarmaYogi is a badge of honour again.”","by":"Pradeep, Electrician (Pune)"}
+  ],
+  "join_title":"Join the Movement",
+  "join_intro":"Bhavki is a community of KarmaYogis, Sevaks, and Sanatanis rebuilding Bharat through Dharma-driven service. Be part of this change — your skill is your Dharma.",
+  "form_name":"Your Name",
+  "form_email":"Email",
+  "form_city":"City / State",
+  "join_button":"Join Now",
+  "join_thanks":"Thanks — you are now on the Bhavki list!",
+  "phone":"Need help? Call",
+  "footer_quote":"“Seva is Dharma. Dharma is Strength. Strength is Bhavki.”",
+  "footer_rights":"A Sanatani Seva Movement. All Rights Reserved.", 
+
+
+  
+  "hero_title1-": "Bhavki: A Revolution Rooted in Tradition",
+  "hero_sub-1": "Seva. Samman. Sanskar.",
+
+  "about_title-1": "What is Bhavki?",
+  "about_text": "Bhavki means Brotherhood, Fraternity, Community — a close-knit bond reflecting unspoken understanding, duty, and sacred care among people.",
+
+  "vision_title": "The Vision of Chhatrapati Shivaji Maharaj — Still Alive",
+  "vision_text": "When Chhatrapati Shivaji Maharaj envisioned Swarajya, it was not just political freedom but the creation of a dharmic, self-reliant society founded on the respect for Karma and Seva. The Bara Balutedar system embodied this harmony — each service community essential, respected, and integral. Bhavki revives this system, not as nostalgia, but as a living model for the future.",
+
+  "how_title 1": "How Bhavki Works",
+  "step1": { "title": "Who is a KarmaYogi?", "desc": "A KarmaYogi is a practitioner of skilled karma — performing every task as Seva with devotion and dignity." },
+  "step2": { "title": "Who is a KarmaDātā?", "desc": "A KarmaDātā is a conscious contributor — a Yajman who empowers Seva through trust, gratitude, and mutual respect." },
+  "step3": { "title": "The Spectrum of Seva", "desc": "Every act — from repairing a tap to performing a puja — is honoured as sacred Seva. Bhavki maps this living ecosystem of Karma." },
+  "step4": { "title": "Why Bhavki Matters", "desc": "Bhavki restores community belonging, respects local identity, and revives grassroots dignity — where people help people, not profiles complete tasks." },
+
+  "seva_heading": "Spectrum of Seva Pathways",
+  "seva_categories": [
+    "Health & Wellness",
+    "Artisans & Craftsmanship",
+    "Food & Annaseva",
+    "Infrastructure & Repairs",
+    "Education & Guidance",
+    "Agriculture & Animal Care",
+    "Spiritual & Cultural Services"
+  ],
+
+  
+ 
+  "testimonials": [
+    { "quote": "Your hands carry not just tools, but tradition. Your Seva is sacred.", "by": "Message for KarmaYogis" },
+    { "quote": "When you invite a KarmaYogi into your home, you are part of a sacred exchange of gratitude.", "by": "Message for KarmaDātās" }
+  ],
+
+ "menu_home": "Home",
+  "menu_about": "About Bhavki",
+  "menu_join": "Join as KarmaYogi",
+  "menu_karmadatas": "KarmaDātās",
+  "menu_seva": "Seva Categories",
+  "menu_blog": "Blogs",
+  "menu_contact": "Help",
+
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "join": "KarmaYogi",
+    "karmadatas": "KarmaDātā",
+    "categories": "Categories",
+    "blog": "Blogs",
+    "contact": "Contact"
+  },
+  "bhavki": {
+    "title": "Bhavki"
+  }
+}

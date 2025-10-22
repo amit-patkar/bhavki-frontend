@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- RESET & BASE ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Noto Sans Devanagari", "Noto Serif Devanagari", sans-serif;
+  background-color: #fcfaf6;
+  color: #2b1e08;
+  line-height: 1.7;
+  scroll-behavior: smooth;
+  background-image: url('/images/pattern.png'); 
+  background-repeat: repeat; 
+  background-size: contain;
+
+}
+
+/* ---------- LANGUAGE SPECIFIC FONTS ---------- */
+html[lang="hi"], html[lang="mr"] body {
+  font-family: "Noto Sans Devanagari", "Mukta", "Poppins", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+html[lang="en"] body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #f7eac8 0%, #f3d9a4 100%);
+  padding: 15px 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.7em;
+  color: #7a4b00;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  margin-left: 8px;
+}
+
+.language-selector select {
+  padding: 8px 14px;
+  border: 1px solid #c5a76e;
+  border-radius: 6px;
+  background: #fff8ec;
+  color: #4b2d00;
+  font-weight: 500;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.language-selector select:hover {
+  background: #fff1d5;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  filter: brightness(0.75) saturate(1.1);
+  border-bottom: 4px solid #d4af37;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #fffbe6;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #ffe9b3;
+}
+
+/* ---------- SECTIONS ---------- */
+section {
+  padding: 60px 10%;
+  background-color: #fffdf9;
+  border-top: 2px solid #f0e1b9;
+}
+
+section:nth-of-type(even) {
+  background-color: #fdf9f2;
+}
+
+h2 {
+  text-align: center;
+  color: #7a4b00;
+  font-size: 2rem;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #d4af37;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+p {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  color: #3c2c0f;
+  font-size: 1.05rem;
+}
+
+/* ---------- DHARMA PILLARS & QUALITIES ---------- */
+.pillar,
+.quality {
+  background: #fff8ec;
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pillar:hover,
+.quality:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pillar h3,
+.quality h3 {
+  color: #7a4b00;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+/* ---------- PHILOSOPHY ---------- */
+.philosophy p {
+  margin-top: 15px;
+  text-align: justify;
+  color: #2b1e08;
+  line-height: 1.8;
+}
+
+.philosophy p.hindi,
+.philosophy p.marathi {
+  background-color: #fff8ec;
+  border-left: 4px solid #d4af37;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  font-style: italic;
+  font-family: "Noto Sans Devanagari", "Mukta", sans-serif;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: linear-gradient(90deg, #f7eac8 0%, #f3d9a4 100%);
+  text-align: center;
+  padding: 25px 10px;
+  font-size: 0.9rem;
+  color: #4b2d00;
+  letter-spacing: 0.5px;
+  border-top: 2px solid #d4af37;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -30%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* src/index.css */
+
+.header-container {
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Subtle shadow when scrolling */
+
+.header-container.scrolled {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transform: translateY(0);
+}
